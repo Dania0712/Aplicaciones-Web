@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            align-items: center;
+            justify-self: center;
+        }
+        p{
+            padding: 20px;
+            font-size: 1.5rem;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: darkmagenta;
+        }
+        h1{
+            text-align: center;
+            font-size: 3.5rem;
+            margin-bottom: 50px;
+            color: rgb(118, 14, 145);
+            font-family: 'Times New Roman', Times, serif;
+        }
+        ul{
+            font-style: oblique;
+        }
+        input{
+            padding: 10px;
+            width: 300px;
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+       
+        main{
+            flex: 1;
+        }
+        footer {
+            text-align: center;
+            padding: 2px;
+            background-color: #da9fe3;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-family: monospace;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+    <main>
+        <h1 class="Encabezado">LISTA</h1>
+
+    <div>
+        <input class="input-tarea" type="text" placeholder="Nombre de las tareas">
+        <button class="boton-agregar">Agregar</button>
+    </div>
+
+    <p>
+        Lista de tareas:
+    </p>
+
+    <ul>
+        <li>Tarea 1</li>
+        <li>Tarea 2</li>
+        <li>Tarea 3</li>
+    </ul>
+
+<!--
+    
+    <script>
+        const boton-agregar=document.getElementById("boton-agrega-01");
+        const input-tarea=document.querySelector(".input-tarea");
+
+        botonAgregar.addEventListener("click", () => {
+            console.log("Se hizo click en el botón");
+            console.log(inputTarea.value);
+        })
+    </script>
+-->
+    
+    </main>
+    
+    <footer>
+        <p>Dania Márquez Pérez TID31M</p>
+    </footer>
+
+</body>
+</html>
